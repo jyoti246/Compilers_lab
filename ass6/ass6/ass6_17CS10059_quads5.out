@@ -1,0 +1,93 @@
+********************Printing Quads**********************
+--------------------------------------------------------
+|                         Quads                        |
+--------------------------------------------------------
+0 : function readInt start
+1 : function readInt end
+2 : function printInt start
+3 : function printInt end
+4 : function readFlt start
+5 : function readFlt end
+6 : function printFlt start
+7 : function printFlt end
+8 : function main start
+9 : 10 : param t0
+11 : call readInt 1
+12 : x = readInt
+13 : i = x
+14 : param i
+15 : call printInt 1
+16 : 17 : param t1
+18 : call readFlt 1
+19 : f = readFlt
+20 : param f
+21 : call printFlt 1
+22 : t2 = 0
+23 : return t2
+24 : function main end
+--------------------------------------------------------------
+ 									Symbol Table (ST.gbl)											 
+--------------------------------------------------------------
+Name	Type		Size	Offset
+InitVal	---------------------------------------
+readInt	function	1		4	0	NULL
+printInt	function	1		4	4	NULL
+readFlt	function	1		4	8	NULL
+printFlt	function	1		4	12	NULL
+main	function	0		0	16	NULL
+-------------------------------------------------------------
+--------------------------------------------------------------
+          Symbol Table of readInt		    
+--------------------------------------------------------------
+Name	Type		Size	Offset
+InitVal	---------------------------------------
+x	int		4	0	NULL
+retVal	int		4	4	NULL
+-------------------------------------------------------------
+--------------------------------------------------------------
+          Symbol Table of printInt		    
+--------------------------------------------------------------
+Name	Type		Size	Offset
+InitVal	---------------------------------------
+y	int		4	0	NULL
+retVal	int		4	4	NULL
+-------------------------------------------------------------
+--------------------------------------------------------------
+          Symbol Table of readFlt		    
+--------------------------------------------------------------
+Name	Type		Size	Offset
+InitVal	---------------------------------------
+x	float		8	0	NULL
+retVal	int		4	8	0
+-------------------------------------------------------------
+--------------------------------------------------------------
+          Symbol Table of printFlt		    
+--------------------------------------------------------------
+Name	Type		Size	Offset
+InitVal	---------------------------------------
+x	float		8	0	NULL
+retVal	int		4	8	NULL
+-------------------------------------------------------------
+--------------------------------------------------------------
+          Symbol Table of main		    
+--------------------------------------------------------------
+Name	Type		Size	Offset
+InitVal	---------------------------------------
+n	int		4	0	NULL
+readInt	int		4	4	NULL
+t0	int		4	8	NULL
+x	int		4	12	NULL
+i	int		4	16	NULL
+printInt	int		4	20	NULL
+f	float		8	24	NULL
+readFlt	int		4	32	NULL
+t1	int		4	36	NULL
+printFlt	int		4	40	NULL
+t2	int		4	44	0
+retVal	int		4	48	NULL
+-------------------------------------------------------------
+--------------------------------------------------------
+|                  Compilation Result                  |
+--------------------------------------------------------
+Compilation Success  ^_^ !!
+--------------------------------------------------------

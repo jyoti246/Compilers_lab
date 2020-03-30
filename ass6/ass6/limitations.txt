@@ -1,0 +1,6 @@
+1. We need to declare a variable before assigning the return value of a function call
+2. Pointers is parsed properly, but having problems in displaying them
+3. declarations inside loops isn't allowed.
+4. u cant read 0 as an i/p, that's restricted
+5. u cant keep t* as variable name, those are compiler generated temporaries.
+6. There is a little problem with printStr, as we cant define a char array
